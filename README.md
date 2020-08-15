@@ -65,7 +65,7 @@ Steps:
 * Connected to MongoDB and inserted data into database
 * Returned Jsonified result in local host
 
-![Flask](Screenshot.PNG)
+![Flask](Flask/Screenshot.PNG)
 
 
 
