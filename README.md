@@ -1,6 +1,8 @@
 # ETL-Project: Top Seller Steam Game Ratings
 
 Our project looks at the ETL process of the top selling Steam game ratings. We created a separate Jupyter Notebook for each stage.
+We also created a Flask API that returns a Jsonified dictionary on Local host.
+**Note: Due to large volume of original data source, scraping will take about 10 minutes.**
 
 ## Team
 Our team consists of:
