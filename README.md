@@ -1,6 +1,6 @@
 # ETL-Project: Top Seller Steam Game Ratings
 
-Our project looks at the ETL process of the top selling Steam game ratings.
+Our project looks at the ETL process of the top selling Steam game ratings. We created a separate Jupyter Notebook for each stage.
 
 ## Team
 Our team consists of:
