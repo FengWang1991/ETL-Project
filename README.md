@@ -53,6 +53,16 @@ Steps:
 *	Inserted rows into the collection using insert_many(data)
 *	Printed results and checked MongoDB to ensure successful loading
 
+## Flask API
+
+Steps:
+
+* Created python files from Jupyter notebooks for the scraping and transforming process
+* Created app.py and called Scrape function in the previous step and returned two dictionaries from each data source
+* Called the transform function to clean and merge into DataFrames
+* Connected to MongoDB and inserted data into database
+* Returned Jsonified result in local host
+
 
 
 
