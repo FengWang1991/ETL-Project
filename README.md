@@ -14,10 +14,11 @@ Our team consists of:
 Original Data Sources: 
 1.	Steam official website: https://store.steampowered.com/search/?filter=topsellers
 2.	Top rated games on Steam: https://steamdb.info/stats/gameratings/
+
 Steps:
-•	Web scraping to extract the top sellers from the first data source and extracted ratings from the second source. 
-•	Libraries used: Pandas, BeautifulSoup, Splinter, Time and tqdm(progress bar tracker for loops).
-•	Both of the original data sources are in HTML format. We saved the resulting data to DataFrames and then saved as csv files to be used for the transform stage.
+*	Web scraping to extract the top sellers from the first data source and extracted ratings from the second source. 
+*	Libraries used: Pandas, BeautifulSoup, Splinter, Time and tqdm(progress bar tracker for loops).
+*	Both of the original data sources are in HTML format. We saved the resulting data to DataFrames and then saved as csv files to be used for the transform stage.
 Challenges :
 First data source (Steam official Website): 
 •	this website shows all games by infinitely scrolling. We worked around this limitation by inspecting the HTML and finding the pagination div tag. 
