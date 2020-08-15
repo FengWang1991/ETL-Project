@@ -31,14 +31,14 @@ Second data source (Top rated games on Steam)
 ## Transform
 
 Steps:
-*	Read csv files from previous step into DataFrames
+* 	Read csv files from previous step into DataFrames
 *	Merged the two DataFrames on game_name
 *	Cleaned the Merged DataFrames by
-  *	Drop the NA rows (the rows where Release_date were empty)
-  * Reset Index 
+*	Drop the NA rows (the rows where Release_date were empty)
+* Reset Index 
 	* Formatted the Price columns by using .split() and .replace() to get the regular and discounted price
 	* Renamed Columns for clarity 
-  * saved as a new csv file for the load stage
+*  Saved as a new csv file for the load stage
 
 
 ## Load
