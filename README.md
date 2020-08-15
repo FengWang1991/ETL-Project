@@ -36,8 +36,8 @@ Steps:
 *	Cleaned the Merged DataFrames by
 *	Drop the NA rows (the rows where Release_date were empty)
 * Reset Index 
-	* Formatted the Price columns by using .split() and .replace() to get the regular and discounted price
-	* Renamed Columns for clarity 
+* Formatted the Price columns by using .split() and .replace() to get the regular and discounted price
+* Renamed Columns for clarity 
 *  Saved as a new csv file for the load stage
 
 
